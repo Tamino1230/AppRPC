@@ -6,6 +6,15 @@ from rich import print
 default_data = {
     "client_id": 1334932480066715769,
     "show_discord_chats": False,
+    "show_websites": False,
+    "your_browsers": [
+        "Chrome",
+        "Firefox",
+        "Safari",
+        "Edge",
+        "Brave",
+        "Opera"
+    ],
     "state": "Get on github.com/Tamino1230/AppRPC"
 }
 

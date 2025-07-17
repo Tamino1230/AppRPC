@@ -1,5 +1,14 @@
 {
     "client_id": 1334932480066715769,
     "show_discord_chats": false,
+    "activate_excluded": true,
+    "excluded": [
+        "Chrome",
+        "Firefox",
+        "Safari",
+        "Edge",
+        "Brave",
+        "Opera"
+    ],
     "state": "Get on github.com/Tamino1230/AppRPC"
 }

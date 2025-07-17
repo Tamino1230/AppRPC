@@ -53,6 +53,11 @@ class AppRPC:
             window_title = "Desktop"
         if not self.config["show_discord_chats"] and "discord" in window_title.lower():
             window_title = "Discord"
+        if self.config["activate_excluded"] and any(excluded.lower() in window_title.lower() for excluded in self.config["excluded"]):
+            for excluded in self.config["excluded"]:
+                if excluded.lower() in window_title.lower():
+                    window_title = excluded
+                    break
         if self.current_window != window_title:
             self.current_window = window_title
         else:
