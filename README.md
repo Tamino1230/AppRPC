@@ -2,6 +2,8 @@
   <img src="imgs/config.png" alt="AppRPC Config" width="300"/>
 </p>
 
+#### This Programm a inspired program from <a href="https://github.com/Tamino1230/CustomRPC">CustomRPC</a>
+
 # AppRPC
 
 AppRPC is a Python application that integrates with Discord's Rich Presence, allowing you to display your current active window or desktop state on your Discord profile. It is highly configurable and easy to use, making it ideal for users who want to showcase their activity or customize their Discord status dynamically.
@@ -36,6 +38,22 @@ AppRPC is a Python application that integrates with Discord's Rich Presence, all
 <p align="center">
   <img src="imgs/rpc_with_discord_chat_on.png" alt="Discord Chat On" width="400"/>
 </p>
+
+---
+
+
+## Getting Your Discord Client ID
+
+To use AppRPC, you need a Discord Application Client ID. Here’s how to create one:
+
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+2. Click **New Application** and give it a name (e.g., "AppRPC").
+3. Click **Create**.
+4. On the left sidebar, select **OAuth2** or **General Information**.
+5. Copy the **Client ID** shown at the top.
+6. Paste this Client ID into your `config/config.json` file under `client_id`.
+
+You can also customize your application's icon and description for a more personalized experience.
 
 ---
 
