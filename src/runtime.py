@@ -39,8 +39,9 @@ class AppRPC:
         try:
             self.RPC.connect()
         except DiscordNotFound:
-            print("[red]Discord is not open. The RPC will be disabled[/red]")
-            self.config["enabled"] = False
+            print("[red]Discord is not open. Exiting..[/red]")
+            time.sleep(3)
+            exit(1)
         print("[green]Connected.[/green]")
 
     def get_current_window(self):
