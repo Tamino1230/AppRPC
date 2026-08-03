@@ -27,7 +27,7 @@ def create_config_file_with_default_settings(folder_path = "config", file = "con
         print("[green]Created new File successfully[/green]")
     except Exception as e:
         print(e)
-        print(f"[red]An error accured while creating the new config file.[/red]")
+        print(f"[red]An error occurred while creating the new config file.[/red]")
         exit(1)
 
 def load_config(path=r"./config/config.json"):
